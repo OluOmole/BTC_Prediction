@@ -19,8 +19,8 @@ setup(
     name="bitcoin_price_prediction",
     version="0.1",
     description="A project for predicting Bitcoin price direction.",
-    author="Oluwadamilare Omole",
-    author_email="oluwadamilare.omole.com",
+    author="Olu Omole",
+    author_email="oao8xf@mst.edu",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires= get_requirements("requirements.txt"),
@@ -30,7 +30,6 @@ setup(
         ],
     },
     
-    #url="https://github.com/stevenomole/bitcoin_price_prediction",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
